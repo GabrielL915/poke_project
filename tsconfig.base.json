@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@poke-project/data-access": ["data-access/src/index.ts"],
+      "@poke-project/data-source": ["data-source/src/index.ts"],
+      "@poke-project/domain": ["domain/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
