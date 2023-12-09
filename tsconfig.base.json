@@ -17,7 +17,8 @@
     "paths": {
       "@poke-project/data-access": ["data-access/src/index.ts"],
       "@poke-project/data-source": ["data-source/src/index.ts"],
-      "@poke-project/domain": ["domain/src/index.ts"]
+      "@poke-project/domain": ["domain/src/index.ts"],
+      "@poke-project/utils": ["libs/utils/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
